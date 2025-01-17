@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bpec7sgm7t8gx"]
+
+[ext_resource type="AudioStream" uid="uid://dnjlp0l75m5nb" path="res://Assets/Music/View of The River Styx.mp3" id="1_toe5r"]
+
+[node name="MenuBGM" type="Node"]
+
+[node name="ViewOfTheRiverStyx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_toe5r")
+autoplay = true
+bus = &"Music"
+parameters/looping = true

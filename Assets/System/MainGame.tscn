@@ -1,0 +1,301 @@
+[gd_scene load_steps=29 format=3 uid="uid://ce3lgqsy1xm3m"]
+
+[ext_resource type="Texture2D" uid="uid://ct7bfjk3c5hhg" path="res://Assets/System/Sprites/P1LifeBar.png" id="2_67mcn"]
+[ext_resource type="Script" path="res://Assets/System/System.gd" id="2_aju1d"]
+[ext_resource type="PackedScene" uid="uid://3dxg3blqihmd" path="res://Assets/Chars/K'/K'.tscn" id="2_m7bso"]
+[ext_resource type="Script" path="res://Assets/System/Player1.gd" id="2_vtivn"]
+[ext_resource type="Script" path="res://Assets/System/Player2.gd" id="4_csucn"]
+[ext_resource type="Texture2D" uid="uid://cbg1qfp38gely" path="res://Assets/System/Sprites/Life.png" id="4_rl6lt"]
+[ext_resource type="PackedScene" uid="uid://brw6c1yl8v32k" path="res://Assets/Stages/The Fortress/TheFortress.tscn" id="5_6w4hs"]
+[ext_resource type="Texture2D" uid="uid://c8jgwxqprcixe" path="res://Assets/System/Sprites/LifeDamaged_2-0.png" id="5_g0cn0"]
+[ext_resource type="Texture2D" uid="uid://dby6rkiy2ab71" path="res://Assets/System/Sprites/LifeDamaged_2-1.png" id="6_fo466"]
+[ext_resource type="Texture2D" uid="uid://b8p5tr3g7cdc0" path="res://Assets/System/Sprites/P1PowerBar.png" id="7_4i65f"]
+[ext_resource type="Texture2D" uid="uid://k5qaavpfo4sh" path="res://Assets/System/Sprites/LifeDamaged_2-2.png" id="7_etmfp"]
+[ext_resource type="Texture2D" uid="uid://lofikmb8epr" path="res://Assets/System/Sprites/P2LifeBar.png" id="7_u7rsa"]
+[ext_resource type="Texture2D" uid="uid://by8quawa6dagf" path="res://Assets/System/Sprites/LifeDamaged_2-3.png" id="8_240eq"]
+[ext_resource type="Texture2D" uid="uid://btjo26sx80mww" path="res://Assets/System/Sprites/P2PowerBar.png" id="9_tnb5p"]
+[ext_resource type="Texture2D" uid="uid://yqprph61ccuf" path="res://Assets/System/Sprites/LifeDamaged_2-4.png" id="9_yyx1y"]
+[ext_resource type="Texture2D" uid="uid://dhqdkk2a7anb6" path="res://Assets/System/Sprites/LifeDamaged_2-5.png" id="10_h7t23"]
+[ext_resource type="Texture2D" uid="uid://be8ofuju1hvfs" path="res://Assets/System/Sprites/LifeDamaged_2-6.png" id="11_mckbg"]
+[ext_resource type="Texture2D" uid="uid://d1tig7xxgfh7j" path="res://Assets/System/Sprites/LifeDamaged_2-7.png" id="12_pjxw1"]
+[ext_resource type="Texture2D" uid="uid://b1dfe1i5nn7eu" path="res://Assets/System/Sprites/LifeDamaged_2-8.png" id="13_x5636"]
+[ext_resource type="Texture2D" uid="uid://6lo7g7ukl68i" path="res://Assets/System/Sprites/LifeDamaged_2-9.png" id="14_bl2ho"]
+[ext_resource type="Texture2D" uid="uid://bnoilhxpja2df" path="res://Assets/System/Sprites/LifeDamaged_2-10.png" id="15_kj5t1"]
+[ext_resource type="Texture2D" uid="uid://bk5qjuy6lsg06" path="res://Assets/System/Sprites/LifeMask.png" id="16_5s2fh"]
+[ext_resource type="Texture2D" uid="uid://uhh60l3oi5n5" path="res://Assets/System/Sprites/LifeDamaged_2-11.png" id="16_oxmyt"]
+[ext_resource type="FontFile" uid="uid://f2bxjlyxe1ya" path="res://Assets/Font/Text-Font.fnt" id="17_8a8if"]
+[ext_resource type="Texture2D" uid="uid://0k3p25ygx4h1" path="res://Assets/System/Sprites/Power.png" id="18_e57iu"]
+[ext_resource type="Texture2D" uid="uid://0gxc2kty2ep3" path="res://Assets/System/Sprites/PowerMask.png" id="20_48ptp"]
+[ext_resource type="PackedScene" uid="uid://bkc87x3d1bl7v" path="res://Assets/Chars/K-BLOOD/K-BLOOD.tscn" id="27_6p1dc"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_h7a6x"]
+animations = [{
+"frames": [{
+"duration": 3.0,
+"texture": ExtResource("5_g0cn0")
+}, {
+"duration": 3.0,
+"texture": ExtResource("6_fo466")
+}, {
+"duration": 3.0,
+"texture": ExtResource("7_etmfp")
+}, {
+"duration": 3.0,
+"texture": ExtResource("8_240eq")
+}, {
+"duration": 3.0,
+"texture": ExtResource("9_yyx1y")
+}, {
+"duration": 3.0,
+"texture": ExtResource("10_h7t23")
+}, {
+"duration": 3.0,
+"texture": ExtResource("11_mckbg")
+}, {
+"duration": 3.0,
+"texture": ExtResource("12_pjxw1")
+}, {
+"duration": 3.0,
+"texture": ExtResource("13_x5636")
+}, {
+"duration": 3.0,
+"texture": ExtResource("14_bl2ho")
+}, {
+"duration": 3.0,
+"texture": ExtResource("15_kj5t1")
+}, {
+"duration": 3.0,
+"texture": ExtResource("16_oxmyt")
+}, {
+"duration": 3.0,
+"texture": ExtResource("15_kj5t1")
+}, {
+"duration": 3.0,
+"texture": ExtResource("14_bl2ho")
+}, {
+"duration": 3.0,
+"texture": ExtResource("13_x5636")
+}, {
+"duration": 3.0,
+"texture": ExtResource("12_pjxw1")
+}, {
+"duration": 3.0,
+"texture": ExtResource("11_mckbg")
+}, {
+"duration": 3.0,
+"texture": ExtResource("10_h7t23")
+}, {
+"duration": 3.0,
+"texture": ExtResource("9_yyx1y")
+}, {
+"duration": 3.0,
+"texture": ExtResource("8_240eq")
+}, {
+"duration": 3.0,
+"texture": ExtResource("7_etmfp")
+}, {
+"duration": 3.0,
+"texture": ExtResource("6_fo466")
+}],
+"loop": true,
+"name": &"default",
+"speed": 60.0
+}]
+
+[node name="MainGame" type="Node2D"]
+
+[node name="Stage" type="Node2D" parent="."]
+
+[node name="TheFortress" parent="Stage" instance=ExtResource("5_6w4hs")]
+
+[node name="System" type="Node2D" parent="."]
+top_level = true
+z_index = 4096
+script = ExtResource("2_aju1d")
+
+[node name="Timer" type="Node2D" parent="System"]
+position = Vector2(-21, 19)
+
+[node name="Label" type="Label" parent="System/Timer"]
+offset_right = 42.5
+offset_bottom = 23.0
+theme_override_fonts/font = ExtResource("17_8a8if")
+theme_override_font_sizes/font_size = 21
+text = "99"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="P1Life" type="Node2D" parent="System"]
+clip_children = 1
+position = Vector2(-183.5, 19)
+
+[node name="Portrait" type="Sprite2D" parent="System/P1Life"]
+position = Vector2(-29, -2)
+centered = false
+
+[node name="ColorRect" type="ColorRect" parent="System/P1Life/Portrait"]
+show_behind_parent = true
+offset_right = 25.0
+offset_bottom = 25.0
+color = Color(0, 0, 0, 1)
+
+[node name="LifeBar" type="Sprite2D" parent="System/P1Life"]
+position = Vector2(-30, -3)
+texture = ExtResource("2_67mcn")
+centered = false
+
+[node name="Damaged" type="Sprite2D" parent="System/P1Life"]
+clip_children = 1
+texture = ExtResource("16_5s2fh")
+centered = false
+
+[node name="DamagedClip" type="AnimatedSprite2D" parent="System/P1Life/Damaged"]
+sprite_frames = SubResource("SpriteFrames_h7a6x")
+autoplay = "default"
+frame = 12
+frame_progress = 0.819123
+centered = false
+
+[node name="Life" type="Sprite2D" parent="System/P1Life"]
+clip_children = 1
+texture = ExtResource("16_5s2fh")
+centered = false
+
+[node name="LifeClip" type="Sprite2D" parent="System/P1Life/Life"]
+texture = ExtResource("4_rl6lt")
+centered = false
+
+[node name="Name" type="Label" parent="System/P1Life"]
+offset_left = -1.0
+offset_top = 11.0
+offset_right = 161.0
+offset_bottom = 22.0
+theme_override_fonts/font = ExtResource("17_8a8if")
+theme_override_font_sizes/font_size = 7
+text = "Name"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="P1Power" type="Node2D" parent="System"]
+
+[node name="PowerBar" type="Sprite2D" parent="System/P1Power"]
+position = Vector2(-213.5, 205)
+texture = ExtResource("7_4i65f")
+centered = false
+
+[node name="Power" type="Sprite2D" parent="System/P1Power"]
+clip_children = 1
+position = Vector2(-191.5, 216)
+texture = ExtResource("20_48ptp")
+centered = false
+
+[node name="PowerClip" type="Sprite2D" parent="System/P1Power/Power"]
+texture = ExtResource("18_e57iu")
+centered = false
+
+[node name="Label" type="Label" parent="System/P1Power"]
+offset_left = -212.5
+offset_top = 206.0
+offset_right = -194.5
+offset_bottom = 224.0
+theme_override_fonts/font = ExtResource("17_8a8if")
+theme_override_font_sizes/font_size = 14
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="P2Life" type="Node2D" parent="System"]
+position = Vector2(183.5, 28)
+rotation = -3.14159
+
+[node name="Portrait" type="Sprite2D" parent="System/P2Life"]
+position = Vector2(-4, 11)
+rotation = -3.14159
+centered = false
+flip_h = true
+
+[node name="ColorRect" type="ColorRect" parent="System/P2Life/Portrait"]
+show_behind_parent = true
+offset_right = 25.0
+offset_bottom = 25.0
+color = Color(0, 0, 0, 1)
+
+[node name="LifeBar" type="Sprite2D" parent="System/P2Life"]
+position = Vector2(162, 12)
+rotation = 3.14159
+texture = ExtResource("7_u7rsa")
+centered = false
+
+[node name="Damaged" type="Sprite2D" parent="System/P2Life"]
+clip_children = 1
+texture = ExtResource("16_5s2fh")
+centered = false
+
+[node name="DamagedClip" type="AnimatedSprite2D" parent="System/P2Life/Damaged"]
+sprite_frames = SubResource("SpriteFrames_h7a6x")
+autoplay = "default"
+frame = 14
+frame_progress = 0.608472
+centered = false
+
+[node name="Life" type="Sprite2D" parent="System/P2Life"]
+clip_children = 1
+texture = ExtResource("16_5s2fh")
+centered = false
+
+[node name="LifeClip" type="Sprite2D" parent="System/P2Life/Life"]
+texture = ExtResource("4_rl6lt")
+centered = false
+
+[node name="Name" type="Label" parent="System/P2Life"]
+offset_left = 161.0
+offset_top = -2.0
+offset_right = 323.0
+offset_bottom = 9.0
+rotation = -3.14159
+theme_override_fonts/font = ExtResource("17_8a8if")
+theme_override_font_sizes/font_size = 7
+text = "Name"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="P2Power" type="Node2D" parent="System"]
+
+[node name="PowerBar" type="Sprite2D" parent="System/P2Power"]
+position = Vector2(89.5, 205)
+texture = ExtResource("9_tnb5p")
+centered = false
+
+[node name="Power" type="Sprite2D" parent="System/P2Power"]
+clip_children = 1
+position = Vector2(191.5, 222)
+rotation = 3.14159
+texture = ExtResource("20_48ptp")
+centered = false
+
+[node name="PowerClip" type="Sprite2D" parent="System/P2Power/Power"]
+texture = ExtResource("18_e57iu")
+centered = false
+
+[node name="Label" type="Label" parent="System/P2Power"]
+offset_left = 194.5
+offset_top = 206.0
+offset_right = 212.5
+offset_bottom = 224.0
+theme_override_fonts/font = ExtResource("17_8a8if")
+theme_override_font_sizes/font_size = 14
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Player1" type="Node2D" parent="."]
+position = Vector2(0, 210)
+script = ExtResource("2_vtivn")
+
+[node name="K\'" parent="Player1" instance=ExtResource("2_m7bso")]
+
+[node name="Player2" type="Node2D" parent="."]
+position = Vector2(0, 210)
+script = ExtResource("4_csucn")
+
+[node name="K-BLOOD" parent="Player2" instance=ExtResource("27_6p1dc")]

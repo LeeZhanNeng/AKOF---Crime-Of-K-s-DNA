@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bb02tnwtolung"
+path="res://.godot/imported/Another K'_931-9.wav-ab7aefcefd6da94ed550f9f7f18fafab.sample"
+
+[deps]
+
+source_file="res://Assets/Chars/Another K'/Sounds/Another K'_931-9.wav"
+dest_files=["res://.godot/imported/Another K'_931-9.wav-ab7aefcefd6da94ed550f9f7f18fafab.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

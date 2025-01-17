@@ -1,0 +1,2 @@
+X axis: 129
+Y axis: 193

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cjwq2a7pus2yd"
+path="res://.godot/imported/Save The Universe.mp3-273aa44e6a279c5b4232116f97c5f6d5.mp3str"
+
+[deps]
+
+source_file="res://Assets/Music/Save The Universe.mp3"
+dest_files=["res://.godot/imported/Save The Universe.mp3-273aa44e6a279c5b4232116f97c5f6d5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dnjlp0l75m5nb"
+path="res://.godot/imported/View of The River Styx.mp3-f0f0e95fdf4823915843bad3f5fe3a3b.mp3str"
+
+[deps]
+
+source_file="res://Assets/Music/View of The River Styx.mp3"
+dest_files=["res://.godot/imported/View of The River Styx.mp3-f0f0e95fdf4823915843bad3f5fe3a3b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

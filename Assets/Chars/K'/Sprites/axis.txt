@@ -1,0 +1,2 @@
+X axis: 104
+Y axis: 143

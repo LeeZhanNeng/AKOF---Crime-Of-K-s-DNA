@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="AudioLibrary" load_steps=3 format=3 uid="uid://ro3sxvymk04o"]
+
+[ext_resource type="Script" path="res://Assets/Resourses/AudioLibrary.gd" id="1_xgfuk"]
+[ext_resource type="Script" path="res://Assets/Resourses/SFX.gd" id="2_cy2nj"]
+
+[resource]
+script = ExtResource("1_xgfuk")
+sound_effects = Array[ExtResource("2_cy2nj")]([])

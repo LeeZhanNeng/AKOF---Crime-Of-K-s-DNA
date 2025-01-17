@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cnkfcc6r2w3sk"]
+
+[ext_resource type="Script" path="res://Assets/System/Functions.gd" id="1_70du3"]
+
+[node name="Functions" type="Node"]
+script = ExtResource("1_70du3")

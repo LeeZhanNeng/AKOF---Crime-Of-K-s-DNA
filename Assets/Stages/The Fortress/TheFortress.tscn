@@ -1,0 +1,197 @@
+[gd_scene load_steps=31 format=3 uid="uid://brw6c1yl8v32k"]
+
+[ext_resource type="Script" path="res://Assets/Stages/StageCamera.gd" id="1_2b6kn"]
+[ext_resource type="Texture2D" uid="uid://b8w1ariryb2qs" path="res://Assets/Stages/The Fortress/Sprites/The Fortress_0-3.png" id="1_dli5s"]
+[ext_resource type="Script" path="res://Assets/Stages/The Fortress/TheFortress.gd" id="2_4bceu"]
+[ext_resource type="Texture2D" uid="uid://cnydqalavgos7" path="res://Assets/Stages/The Fortress/Sprites/The Fortress_10-0.png" id="2_8duqd"]
+[ext_resource type="Texture2D" uid="uid://c0ppjqfu0u3vh" path="res://Assets/Stages/The Fortress/Sprites/The Fortress_10-1.png" id="3_wwgnv"]
+[ext_resource type="Texture2D" uid="uid://bptxpf1gpq7st" path="res://Assets/Stages/The Fortress/Sprites/The Fortress_10-2.png" id="4_q8x40"]
+[ext_resource type="Texture2D" uid="uid://cmxqudyhusho5" path="res://Assets/Stages/The Fortress/Sprites/The Fortress_10-3.png" id="5_5qxj2"]
+[ext_resource type="Texture2D" uid="uid://cehm0bm5vpw3n" path="res://Assets/Stages/The Fortress/Sprites/The Fortress_10-4.png" id="6_wr0wi"]
+[ext_resource type="Texture2D" uid="uid://7cxcejvhwskl" path="res://Assets/Stages/The Fortress/Sprites/The Fortress_10-5.png" id="7_w6sex"]
+[ext_resource type="Texture2D" uid="uid://bn27rif56vy1x" path="res://Assets/Stages/The Fortress/Sprites/The Fortress_10-6.png" id="8_183wf"]
+[ext_resource type="Texture2D" uid="uid://c4eh44duovwag" path="res://Assets/Stages/The Fortress/Sprites/The Fortress_10-7.png" id="9_1d73s"]
+[ext_resource type="Texture2D" uid="uid://cqb4lwbnc3x3h" path="res://Assets/Stages/The Fortress/Sprites/The Fortress_0-4.png" id="10_wqg5l"]
+[ext_resource type="Texture2D" uid="uid://cwpvl1js8sk7u" path="res://Assets/Stages/The Fortress/Sprites/The Fortress_20-0.png" id="11_fahns"]
+[ext_resource type="Texture2D" uid="uid://l5qt78crijkk" path="res://Assets/Stages/The Fortress/Sprites/The Fortress_20-1.png" id="12_cnqlh"]
+[ext_resource type="Texture2D" uid="uid://c5krtby044qtb" path="res://Assets/Stages/The Fortress/Sprites/The Fortress_20-2.png" id="13_ki0ah"]
+[ext_resource type="Texture2D" uid="uid://v1luu4gng0l" path="res://Assets/Stages/The Fortress/Sprites/The Fortress_20-3.png" id="14_y075r"]
+[ext_resource type="Texture2D" uid="uid://j4s03wawesjm" path="res://Assets/Stages/The Fortress/Sprites/The Fortress_20-4.png" id="15_vgv1s"]
+[ext_resource type="Texture2D" uid="uid://dyj50xsgbbxhp" path="res://Assets/Stages/The Fortress/Sprites/The Fortress_20-5.png" id="16_qv0tw"]
+[ext_resource type="Texture2D" uid="uid://bfl1borggpb62" path="res://Assets/Stages/The Fortress/Sprites/The Fortress_20-6.png" id="17_ik4rk"]
+[ext_resource type="Texture2D" uid="uid://ctxqsutr8qyai" path="res://Assets/Stages/The Fortress/Sprites/The Fortress_20-7.png" id="18_xb64r"]
+[ext_resource type="Texture2D" uid="uid://ttj5v8u58y0o" path="res://Assets/Stages/The Fortress/Sprites/The Fortress_0-0.png" id="19_2fawb"]
+[ext_resource type="Texture2D" uid="uid://bg3d8qvxe3wlv" path="res://Assets/Stages/The Fortress/Sprites/The Fortress_0-2.png" id="20_essuc"]
+[ext_resource type="Texture2D" uid="uid://csoeq3efjnw6u" path="res://Assets/Stages/The Fortress/Sprites/The Fortress_0-1.png" id="21_q3xav"]
+[ext_resource type="AudioStream" uid="uid://cjwq2a7pus2yd" path="res://Assets/Music/Save The Universe.mp3" id="24_um557"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tad0x"]
+size = Vector2(908, 60)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hpdwg"]
+size = Vector2(60, 320)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6vvoo"]
+size = Vector2(60, 320)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_jjy2c"]
+animations = [{
+"frames": [{
+"duration": 8.0,
+"texture": ExtResource("2_8duqd")
+}, {
+"duration": 8.0,
+"texture": ExtResource("3_wwgnv")
+}, {
+"duration": 8.0,
+"texture": ExtResource("4_q8x40")
+}, {
+"duration": 8.0,
+"texture": ExtResource("5_5qxj2")
+}, {
+"duration": 8.0,
+"texture": ExtResource("6_wr0wi")
+}, {
+"duration": 8.0,
+"texture": ExtResource("7_w6sex")
+}, {
+"duration": 8.0,
+"texture": ExtResource("8_183wf")
+}, {
+"duration": 8.0,
+"texture": ExtResource("9_1d73s")
+}],
+"loop": true,
+"name": &"default",
+"speed": 60.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_f000s"]
+animations = [{
+"frames": [{
+"duration": 8.0,
+"texture": ExtResource("11_fahns")
+}, {
+"duration": 8.0,
+"texture": ExtResource("12_cnqlh")
+}, {
+"duration": 8.0,
+"texture": ExtResource("13_ki0ah")
+}, {
+"duration": 8.0,
+"texture": ExtResource("14_y075r")
+}, {
+"duration": 8.0,
+"texture": ExtResource("15_vgv1s")
+}, {
+"duration": 8.0,
+"texture": ExtResource("16_qv0tw")
+}, {
+"duration": 8.0,
+"texture": ExtResource("17_ik4rk")
+}, {
+"duration": 8.0,
+"texture": ExtResource("18_xb64r")
+}],
+"loop": true,
+"name": &"default",
+"speed": 60.0
+}]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_vae2g"]
+blend_mode = 1
+
+[node name="TheFortress" type="Node2D"]
+show_behind_parent = true
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(0, 240)
+
+[node name="Floor" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource("RectangleShape2D_tad0x")
+
+[node name="WallLeft" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-424, -160)
+shape = SubResource("RectangleShape2D_hpdwg")
+
+[node name="WallRight" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(424, -160)
+shape = SubResource("RectangleShape2D_6vvoo")
+
+[node name="BaseSprite" type="Sprite2D" parent="."]
+position = Vector2(1.19209e-07, 240)
+scale = Vector2(1.05, 1.05)
+texture = ExtResource("1_dli5s")
+centered = false
+offset = Vector2(-376, -270)
+script = ExtResource("2_4bceu")
+
+[node name="AnimSpritesLeft" type="AnimatedSprite2D" parent="BaseSprite"]
+sprite_frames = SubResource("SpriteFrames_jjy2c")
+autoplay = "default"
+offset = Vector2(18, -135)
+
+[node name="SpriteMiddle" type="Sprite2D" parent="BaseSprite"]
+texture = ExtResource("10_wqg5l")
+offset = Vector2(18, -135)
+
+[node name="AnimSpritesRight" type="AnimatedSprite2D" parent="BaseSprite"]
+sprite_frames = SubResource("SpriteFrames_f000s")
+autoplay = "default"
+offset = Vector2(18, -135)
+
+[node name="Space" type="Sprite2D" parent="BaseSprite"]
+show_behind_parent = true
+texture = ExtResource("19_2fawb")
+offset = Vector2(-165, -215)
+
+[node name="Space2" type="Sprite2D" parent="BaseSprite"]
+show_behind_parent = true
+texture = ExtResource("19_2fawb")
+offset = Vector2(-811, -215)
+
+[node name="Space3" type="Sprite2D" parent="BaseSprite"]
+self_modulate = Color(0.623529, 0.623529, 0.623529, 1)
+show_behind_parent = true
+material = SubResource("CanvasItemMaterial_vae2g")
+texture = ExtResource("19_2fawb")
+offset = Vector2(40, -180)
+
+[node name="Space4" type="Sprite2D" parent="BaseSprite"]
+self_modulate = Color(0.623529, 0.623529, 0.623529, 1)
+show_behind_parent = true
+material = SubResource("CanvasItemMaterial_vae2g")
+texture = ExtResource("19_2fawb")
+offset = Vector2(-606, -180)
+
+[node name="Moon" type="Sprite2D" parent="BaseSprite"]
+show_behind_parent = true
+texture = ExtResource("20_essuc")
+offset = Vector2(-147, -65)
+
+[node name="Earth" type="Sprite2D" parent="BaseSprite"]
+show_behind_parent = true
+texture = ExtResource("21_q3xav")
+offset = Vector2(118, -115)
+
+[node name="StageCamera" type="Camera2D" parent="."]
+position = Vector2(0, 120)
+limit_left = -394
+limit_top = -20
+limit_right = 394
+limit_bottom = 240
+position_smoothing_speed = 20.0
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+drag_left_margin = 0.0
+drag_top_margin = 0.0
+drag_right_margin = 0.0
+drag_bottom_margin = 0.0
+editor_draw_limits = true
+editor_draw_drag_margin = true
+script = ExtResource("1_2b6kn")
+
+[node name="SaveTheUniverse" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("24_um557")
+autoplay = true
+bus = &"Music"

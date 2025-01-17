@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://q7xkf2xqpxs8"
+path="res://.godot/imported/Another K'_350-0.wav-da751270387035c0f3e3d601d0aee445.sample"
+
+[deps]
+
+source_file="res://Assets/Chars/Another K'/Sounds/Another K'_350-0.wav"
+dest_files=["res://.godot/imported/Another K'_350-0.wav-da751270387035c0f3e3d601d0aee445.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
